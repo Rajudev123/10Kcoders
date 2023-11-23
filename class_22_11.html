@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @media screen and (min-width:0px) and (max-width:321px){
+            
+            .main{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 5px;
+                justify-content: center;
+            }
+            img{
+                width:130px;
+                height:110px;
+                border-radius: 10%;
+            }
+            body{
+                background-color: bisque;
+            }
+         }
+         @media screen and (min-width:322px) and (max-width:425px){
+            
+            .main{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+            }
+            img{
+                width:160px;
+                height:150px;
+                border-radius: 20%;
+            }
+            body{
+                background-color:azure;
+            }
+
+         }
+         @media screen and (min-width:426px) and (max-width:768px){
+            
+            .main{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+            }
+            img{
+                width:200px;
+                height:190px;
+                border-radius: 30%;
+            }
+            body{
+                background-color:black;
+            }
+            h3{
+                color: white;
+            }
+         }
+         @media screen and (min-width:769px){
+            .main{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+            }
+            img{
+                width:350px;
+                height:280px;
+                border-radius: 20%;
+            }
+            body{
+                background-color:lightcoral;
+            }
+            h3{
+                color: black;
+                font-size:30px
+            }
+         }
+    </style>
+   
+</head>
+<body>
+    <h3 style="text-align: center;">Responsive gallery</h3>
+    <div class="main">
+        <img src="./images/ab-de-villers.jpg-55.jpg">
+        <img src="./images/Chris-Gayle-1.jpg">
+        <img src="./images/prabhas.jpg">
+        <img src="./images/ram.jpg">
+        <img src="./images/raina.png">
+        <img src="./images/nani.webp">
+    </div>
+</body>
+</html>
